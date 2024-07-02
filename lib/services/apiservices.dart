@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class Apiservice {
   Future getcategories() async {
-    final categoryurl = Uri.parse('https://dummyjson.com/products/categories');
+    final categoryurl = Uri.parse('https://dummyjson.com/products/category-list');
     final response = await http.get(categoryurl);
     print(response.statusCode);
     print(response.body);
