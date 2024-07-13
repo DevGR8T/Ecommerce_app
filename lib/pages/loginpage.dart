@@ -12,9 +12,9 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final formkey = GlobalKey<FormState>();
   TextEditingController namecontroller =
-      TextEditingController(text: 'kminchelle');
+      TextEditingController(text: 'emilys');
   TextEditingController passwordcontroller =
-      TextEditingController(text: '0lelplR');
+      TextEditingController(text: 'emilyspass');
   bool hidepassword = false;
 
   @override
